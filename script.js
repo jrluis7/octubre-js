@@ -21,6 +21,10 @@
 // Staged -> Los archivos están preparados
 // Commit -> Es una foto del código en ese punto. Un punto de guardado( Podremos volver a él si fuera necesario )
 
+// REPOSITORIO LOCAL 
+
+// REPOSITORIO REMOTO -> REPOSITORIO en INTERNET 
+
 let contador = 0;
 $('#btnClic').on({
     click: function(){
