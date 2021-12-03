@@ -30,5 +30,6 @@ $('#btnClic').on({
     click: function(){
         contador++;
        $( "#datos" ).html(contador);
+       consola.log('8888');
     }
 });
