@@ -21,9 +21,10 @@
 // Staged -> Los archivos están preparados
 // Commit -> Es una foto del código en ese punto. Un punto de guardado( Podremos volver a él si fuera necesario )
 
-
+let contador = 0;
 $('#btnClic').on({
     click: function(){
-        alert(' Hola GIT ');
+        contador++;
+       $( "#datos" ).html(contador);
     }
 });
