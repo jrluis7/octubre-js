@@ -20,3 +20,10 @@
 // Tracked - Git está pendiente de los cambios del archivo
 // Staged -> Los archivos están preparados
 // Commit -> Es una foto del código en ese punto. Un punto de guardado( Podremos volver a él si fuera necesario )
+
+
+$('#btnClic').on({
+    click: function(){
+        alert(' Hola GIT ');
+    }
+});
